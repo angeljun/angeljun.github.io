@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Welcome to my Page</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-10-10T10:17:25.485Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>angeljun</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>music</title>
+    <link href="http://yoursite.com/2019/10/10/music/"/>
+    <id>http://yoursite.com/2019/10/10/music/</id>
+    <published>2019-10-10T10:17:25.000Z</published>
+    <updated>2019-10-10T10:17:25.485Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>起风了</title>
+    <link href="http://yoursite.com/2019/10/10/%E8%B5%B7%E9%A3%8E%E4%BA%86/"/>
+    <id>http://yoursite.com/2019/10/10/起风了/</id>
+    <published>2019-10-10T10:17:11.000Z</published>
+    <updated>2019-10-10T11:47:15.948Z</updated>
+    
+    <content type="html"><![CDATA[<p>这一路上走走停停<br>顺着少年漂流的痕迹<br>迈出车站的前一刻<br>竟有些犹豫<br>不禁笑这近乡情怯<br>仍无可避免<br>而长野的天<br>依旧那么暖<br>风吹起了从前<br>从前初识这世间<br>万般流连<br>看着天边似在眼前<br>也甘愿赴汤蹈火去走它一遍<br>如今走过这世间<br>万般流连<br>翻过岁月不同侧脸<br>措（猝）不及防闯入你的笑颜<br>我曾难自拔于世界之大<br>也沉溺于其中梦话<br>不得真假 不做挣扎 不惧笑话<br>我曾将青春翻涌成她<br>也曾指尖弹出盛夏<br>心之所动 且就随缘去吧<br>逆着光行走 任风吹雨打<br>短短的路走走停停<br>也有了几分的距离<br>不知抚摸的是故事 还是段心情<br>也许期待的不过是 与时间为敌<br>再次看到你<br>微凉晨光里<br>笑得很甜蜜<br>从前初识这世间<br>万般流连<br>看着天边似在眼前<br>也甘愿赴汤蹈火去走它一遍<br>如今走过这世间<br>万般流连<br>翻过岁月不同侧脸<br>措（猝）不及防闯入你的笑颜<br>我曾难自拔于世界之大<br>也沉溺于其中梦话<br>不得真假 不做挣扎 不惧笑话<br>我曾将青春翻涌成她<br>也曾指尖弹出盛夏<br>心之所动 且就随缘去吧<br>晚风吹起你鬓间的白发<br>抚平回忆留下的疤<br>你的眼中 明暗交杂 一笑生花<br>暮色遮住你蹒跚的步伐<br>走进床头藏起的画<br>画中的你 低着头说话<br>我仍感叹于世界之大<br>也沉醉于儿时情话<br>不剩真假 不做挣扎 无谓笑话<br>我终将青春还给了她<br>连同指尖弹出的盛夏<br>心之所动 就随风去了<br>以爱之名 你还愿意吗</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这一路上走走停停&lt;br&gt;顺着少年漂流的痕迹&lt;br&gt;迈出车站的前一刻&lt;br&gt;竟有些犹豫&lt;br&gt;不禁笑这近乡情怯&lt;br&gt;仍无可避免&lt;br&gt;而长野的天&lt;br&gt;依旧那么暖&lt;br&gt;风吹起了从前&lt;br&gt;从前初识这世间&lt;br&gt;万般流连&lt;br&gt;看着天边似在眼前&lt;br&gt;也甘愿赴汤蹈火去走它一
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>jQuery对表单的操作及更多应用</title>
+    <link href="http://yoursite.com/2019/10/10/hi/"/>
+    <id>http://yoursite.com/2019/10/10/hi/</id>
+    <published>2019-10-10T10:16:49.000Z</published>
+    <updated>2019-10-10T10:28:41.018Z</updated>
+    
+    <content type="html"><![CDATA[<p>nihao</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;nihao&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="web" scheme="http://yoursite.com/categories/web/"/>
+    
+    
+      <category term="jQuery" scheme="http://yoursite.com/tags/jQuery/"/>
+    
+      <category term="表格" scheme="http://yoursite.com/tags/%E8%A1%A8%E6%A0%BC/"/>
+    
+      <category term="表单验证" scheme="http://yoursite.com/tags/%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/10/10/My-New-Post/"/>
+    <id>http://yoursite.com/2019/10/10/My-New-Post/</id>
+    <published>2019-10-10T09:25:49.117Z</published>
+    <updated>2019-10-10T10:05:38.847Z</updated>
+    
+    <content type="html"><![CDATA[<p>fadsffasdgljkasdfzhe## 这是一个博客 ##shi1yige1**</p><hr><p>title: jQuery对表单的操作及更多应用<br>date: 2019-10-9<br>categories: </p><ul><li>web前端<br>tags:</li><li>jQuery</li><li>表格</li><li>表单验证</li></ul><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;fadsffasdgljkasdfzhe## 这是一个博客 ##shi1yige1**&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;title: jQuery对表单的操作及更多应用&lt;br&gt;date: 2019-10-9&lt;br&gt;categories: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;web前端&lt;br
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>

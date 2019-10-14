@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-10T10:17:25.485Z</updated>
+  <updated>2019-10-14T06:24:53.931Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/10/14/Vlnet%E7%BD%91%E5%8D%A1%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2019/10/14/Vlnet网卡问题/</id>
+    <published>2019-10-14T06:24:53.929Z</published>
+    <updated>2019-10-14T06:24:53.931Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Vmware重新安装之后的问题"><a href="#Vmware重新安装之后的问题" class="headerlink" title="Vmware重新安装之后的问题"></a>Vmware重新安装之后的问题</h1><pre><code>重新安装之后可能没有vmnet1和vmnet8网卡，这是因为卸载vmware没有卸载干净，可以通过ccleaner来清理一下注册表，然后重新安装就可以出现对应的网卡</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Vmware重新安装之后的问题&quot;&gt;&lt;a href=&quot;#Vmware重新安装之后的问题&quot; class=&quot;headerlink&quot; title=&quot;Vmware重新安装之后的问题&quot;&gt;&lt;/a&gt;Vmware重新安装之后的问题&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;重新安装之后可能没有
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/10/12/linux/"/>
+    <id>http://yoursite.com/2019/10/12/linux/</id>
+    <published>2019-10-12T06:33:14.909Z</published>
+    <updated>2019-10-12T07:58:55.996Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="linux相关命令"><a href="#linux相关命令" class="headerlink" title="linux相关命令"></a>linux相关命令</h1><ol><li>用户相关权限   chmod<br>除了第一个字母不参与权限的表示，其他的都为权限标识符。<table><thead><tr><th>每三个为一组</th><th>共有三组</th><th>：</th></tr></thead><tbody><tr><td>第一组</td><td>用户</td><td>user</td></tr><tr><td>第二组</td><td>用户组</td><td>group</td></tr><tr><td>第三组</td><td>其他人</td><td>other</td></tr></tbody></table></li><li>后面每三个权限成为一组|每组中分别有三个权限：<table><thead><tr><th>字符</th><th>权限</th><th>数字</th></tr></thead><tbody><tr><td>r</td><td>读</td><td>4</td></tr><tr><td>w</td><td>写</td><td>2</td></tr><tr><td>x</td><td>执行</td><td>1</td></tr></tbody></table></li></ol><ol start="3"><li><p>改变文件的所有者 </p><table><thead><tr><th>命令</th><th>用法</th></tr></thead><tbody><tr><td>chown root /u</td><td>Change the owner of /u t”root”.</td></tr><tr><td>chown root:staff /u</td><td>Likewise, but also change its group to “staff”.</td></tr><tr><td>chown -hR root /u</td><td>Change the owner of /u and   subfiles to “root”.</td></tr></tbody></table><p><a href="http://www.baidu.com" title="百度一下" target="_blank" rel="noopener">http://www.baidu.com</a><img src="https://i.imgur.com/8zH0Afb.jpg" alt="一寸照"></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;linux相关命令&quot;&gt;&lt;a href=&quot;#linux相关命令&quot; class=&quot;headerlink&quot; title=&quot;linux相关命令&quot;&gt;&lt;/a&gt;linux相关命令&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;用户相关权限   chmod&lt;br&gt;除了第一个字母不参与权限的表示，其他
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>music</title>

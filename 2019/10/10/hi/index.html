@@ -385,6 +385,29 @@
 			
 					<li>
 						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2019/10/14/Vlnet网卡问题/" title="">
+											
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								十月 14日, 2019				
+							</p>
+							<p class="relate-post-content">
+								Vmware重新安装之后的问题重新安装之后可能没有vmnet1和vmnet8网卡，这是因为卸载vmware没有卸载干净，可以通过ccleaner来清理一下注册表，然后重新安装就可以出现对应的网卡
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2019/10/14/Vlnet网卡问题/" title="">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt=""/>
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
 							<a class="relate-post-title" href="/2019/10/10/music/" title="music">
 								music			
 							</a>
@@ -429,35 +452,6 @@
 					</li>											
 			
 			
-					<li>
-						<div class="relate-post-text">
-							<a class="relate-post-title" href="/2019/10/10/My-New-Post/" title="">
-											
-							</a>
-							<p class="relate-post-date">
-								<i class="fa fa-calendar"></i>
-								十月 10日, 2019				
-							</p>
-							<p class="relate-post-content">
-								fadsffasdgljkasdfzhe## 这是一个博客 ##shi1yige1**
-
-title: jQuery对表单的操作及更多应用date: 2019-10-9categories: 
-
-web前端tags:
-jQuery
-表...
-							</p>
-						</div>
-
-						<div class="relate-post-cover">
-							<a href="/2019/10/10/My-New-Post/" title="">				
-								
-								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt=""/>
-							</a>
-						</div>
-					</li>											
-			
-			
 		</ul>
 	
 </div>	
@@ -469,9 +463,73 @@ jQuery
 
 		
 
-			<!-- I don't know !!!-->
-			<div>Please check the comment setting in config.yml of hexo-theme-Annie!</div>
-			
+			<!-- gitalk comment -->
+			<!-- show gitalk comment -->
+<div id="gitalk-container"></div>
+
+<!-- gitalk`s css & js -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<link rel="stylesheet" href="/css/comment.css">
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script type="text/javascript">
+	//Thanks O-R
+	//https://github.com/gitalk/gitalk/issues/102#issuecomment-382970552
+	//去除尾部匹配正则数组的字符串  
+	//Remove redundant characters
+	String.prototype.trimEnd = function(regStr) {
+		var result = this;
+		if(regStr == undefined || regStr == null || regStr == "") {
+			return result;
+		}
+		var array = regStr.split(',');
+
+		if(array.length > 0) {
+
+			var c = array.shift();
+			var str = this;
+			var i = str.length;
+			var rg = new RegExp(c);
+			var matchArr = str.match(rg);
+
+			if(matchArr != undefined && matchArr != null && matchArr.length > 0) {
+				var matchStr = matchArr[0].replace(/\\/g, "\\\\").replace(/\*/g, "\\*")
+					.replace(/\+/g, "\\+").replace(/\|/g, "\\|")
+					.replace(/\{/g, "\\{").replace(/\}/g, "\\}")
+					.replace(/\(/g, "\\(").replace(/\)/g, "\\)")
+					.replace(/\^/g, "\\^").replace(/\$/g, "\\$")
+					.replace(/\[/g, "\\[").replace(/\]/g, "\\]")
+					.replace(/\?/g, "\\?").replace(/\,/g, "\\,")
+					.replace(/\./g, "\\.").replace(/\&/g, "\\&");
+				matchStr = matchStr + '$';
+				result = str.replace(new RegExp(matchStr), "");
+			}
+
+			if(array.length > 0) {
+				return result.trimEnd(array.join())
+			} else {
+				return result;
+			}
+		}
+	};
+
+	//Create gitalk
+	var gitalk = new Gitalk({
+		clientID: '57723d8d660bd76132a5',
+		clientSecret: 'af27d9a4243827244e2ac08a125cc0e12d7a420a',
+		//id: window.location.pathname,
+		//id: decodeURI(window.location.pathname),
+		//id: (window.location.pathname).split("/").pop().substring(0, 49),
+		id: decodeURI( md5( location.href.trimEnd('#.*$,\\?.*$,index.html$') ) ),
+		repo: 'Angel-Gittalk',
+		owner: 'angeljun',
+		admin: 'angeljun',
+		distractionFreeMode: 'true',
+	})
+	gitalk.render('gitalk-container');
+</script>
+
 		
 		
 	
